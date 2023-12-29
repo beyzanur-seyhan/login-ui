@@ -283,6 +283,7 @@ footer button div {
     border: none;
     padding-left: 13px;
     padding-right: 16px;
+    border-left: 1px solid #cfd9e0;
   }
 
   .form_input_password button img {
