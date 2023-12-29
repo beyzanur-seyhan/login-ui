@@ -19,7 +19,12 @@
       <img src="images/logo.svg" alt="Corporate Logo" />
     </header>
     <div class="form_container">
-      <h1>Sign In</h1>
+      <div>
+        <h1>Login</h1>
+        <div class="form_create_account">
+          <span>Don’t have an account?</span> <span>Create now</span>
+        </div>
+      </div>
       <form class="form" method="get">
         <div class="form_input">
           <div>
@@ -34,7 +39,20 @@
           </div>
           <div>
             <label for="upassword">Password</label>
-            <input type="password" id="upassword" placeholder="@#*%" required />
+            <div class="form_input_password">
+              <input
+                type="password"
+                id="upassword"
+                placeholder="@#*%"
+                required
+              />
+              <button>
+                <img
+                  src="images/icons/show_passoword.svg"
+                  alt="Password Show Icon"
+                />
+              </button>
+            </div>
           </div>
         </div>
         <div class="login_option">
