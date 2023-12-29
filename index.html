@@ -15,75 +15,119 @@
     />
   </head>
   <body>
-    <header>
-      <img src="images/logo.svg" alt="Corporate Logo" />
-    </header>
-    <div class="form_container">
-      <div>
-        <h1>Login</h1>
+    <div class="left_side">
+      <header>
+        <img src="images/logo.svg" alt="Corporate Logo" />
+      </header>
+      <div class="form_container">
+        <div>
+          <h1>Login</h1>
+          <div class="form_create_account">
+            <span>Don’t have an account?</span> <span>Create now</span>
+          </div>
+        </div>
+        <form class="form" method="get">
+          <div class="form_input">
+            <div>
+              <label for="uemail">Email</label>
+              <input
+                class="input"
+                type="text"
+                id="uemail"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="upassword">Password</label>
+              <div class="form_input_password">
+                <input
+                  type="password"
+                  id="upassword"
+                  placeholder="@#*%"
+                  required
+                />
+                <button>
+                  <img
+                    src="images/icons/show_passoword.svg"
+                    alt="Password Show Icon"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="login_option">
+            <div class="login_option_remember_me">
+              <input type="checkbox" id="urememberme" />
+              <label for="urememberme">Remember me</label>
+            </div>
+            <div class="login_option_forgot_password">Forgot Password?</div>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+      <div class="divider">
+        <hr />
+        <span>OR</span>
+        <hr />
+      </div>
+      <footer>
+        <div>
+          <button>
+            <img src="images/icons/google.svg" alt="Google Logo Icon" />
+            <div>Continue with Google</div>
+          </button>
+          <button>
+            <img src="images/icons/facebook.svg" alt="Facebook Logo Icon" />
+            <div>Continue with Facebook</div>
+          </button>
+        </div>
         <div class="form_create_account">
           <span>Don’t have an account?</span> <span>Create now</span>
         </div>
+      </footer>
+    </div>
+    <div class="right_side">
+      <div class="circle"></div>
+      <div class="support">
+        <img src="images/icons/support.svg" alt="Support Icon" />
+        <div>Support</div>
       </div>
-      <form class="form" method="get">
-        <div class="form_input">
-          <div>
-            <label for="uemail">Email</label>
-            <input
-              class="input"
-              type="text"
-              id="uemail"
-              placeholder="example@gmail.com"
-              required
-            />
-          </div>
-          <div>
-            <label for="upassword">Password</label>
-            <div class="form_input_password">
-              <input
-                type="password"
-                id="upassword"
-                placeholder="@#*%"
-                required
-              />
-              <button>
-                <img
-                  src="images/icons/show_passoword.svg"
-                  alt="Password Show Icon"
-                />
-              </button>
+      <div class="right_side_center">
+        <div>
+          <div class="right_side_center_card">
+            <div>
+              <h2>Reach financial goals faster</h2>
+              <p>
+                Use your Venus card around the world with no hidden fees. Hold,
+                transfer and spend money.
+              </p>
+              <button>Learn more</button>
+            </div>
+            <div class="right_side_center_card_earnings">
+              <img src="images/icons/graphic.svg" alt="Graphic Icon" />
+              <div>
+                <div>Earnings</div>
+                <div>$350.40</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="login_option">
-          <div class="login_option_remember_me">
-            <input type="checkbox" id="urememberme" />
-            <label for="urememberme">Remember me</label>
+          <div>
+            <h3>Introducing new features</h3>
+            <p>
+              Analyzing previous trends ensures that businesses always make the
+              right decision. And as the scale of the decision and it’s impact
+              magnifies...
+            </p>
           </div>
-          <div class="login_option_forgot_password">Forgot Password?</div>
         </div>
-        <button type="submit">Login</button>
-      </form>
-    </div>
-    <div class="divider">
-      <hr />
-      <span>OR</span>
-      <hr />
-    </div>
-    <footer>
-      <div>
-        <button>
-          <img src="images/icons/google.svg" alt="Google Logo Icon" />
-          <div>Continue with Google</div>
-        </button>
-        <button>
-          <img src="images/icons/facebook.svg" alt="Facebook Logo Icon" />
-          <div>Continue with Facebook</div>
-        </button>
+        <div class="right_side_center_skip">
+          <img src="images/icons/arrow_left.svg" alt="Arrow Left Icon" />
+          <div class="skip_circle"></div>
+          <img src="images/icons/skip.svg" alt="Person Icon" />
+          <div class="skip_circle"></div>
+        </div>
       </div>
-      <div class="form_create_account">
-        <span>Don’t have an account?</span> <span>Create now</span>
-      </div>
-    </footer>
+    </div>
   </body>
 </html>
