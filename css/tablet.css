@@ -1,0 +1,114 @@
+/** For Tablet Device **/
+@media screen and (max-width: 1440px) and (min-width: 834px) {
+  body {
+    background-color: white;
+  }
+
+  .left_side {
+    padding: 85px 73px !important;
+  }
+
+  header {
+    width: 180.57px;
+    height: 44.78px;
+  }
+
+  .form_container {
+    margin-top: 74.22px;
+  }
+
+  .form_container h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
+  }
+
+  .form_create_account:nth-of-type(1) {
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 39.04px;
+    margin-bottom: 45.93px;
+  }
+
+  .form_create_account:nth-of-type(2) {
+    display: none;
+  }
+
+  .form_input div label {
+    margin-bottom: 21px;
+  }
+
+  .form_input div input {
+    height: 55px;
+  }
+
+  .form_input div:first-child {
+    margin-bottom: 41.33px;
+  }
+
+  .login_option {
+    margin-top: 59.37px;
+    margin-bottom: 45.93px;
+  }
+
+  button[type="submit"] {
+    height: 68.89px;
+    border-radius: 20px;
+  }
+
+  .divider {
+    column-gap: 18.61px;
+    margin-bottom: 52.81px;
+  }
+
+  .divider hr {
+    width: 100%;
+  }
+
+  footer button {
+    height: 68.89px;
+    padding-left: 31.15px;
+    column-gap: 156.79px;
+  }
+
+  footer button img {
+    width: 31.15px;
+    height: 28.7px;
+  }
+
+  footer button div {
+    font-size: 18px;
+    font-weight: 500;
+    color: #67728a;
+  }
+
+  .form_input_password button {
+    display: block;
+  }
+
+  .form_input_password {
+    display: flex;
+    align-items: center;
+    background-color: var(--third-color);
+    border-radius: 12px;
+  }
+
+  .form_input_password button {
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    padding-left: 13px;
+    padding-right: 16px;
+    border-left: 1px solid #cfd9e0;
+  }
+
+  .form_input_password button img {
+    width: 20.436px;
+    height: 15.281px;
+  }
+
+  .form_input div:last-child input {
+    border: none;
+    background-color: transparent;
+  }
+}
