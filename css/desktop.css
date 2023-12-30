@@ -5,8 +5,8 @@
   }
 
   header {
-    width: 141.85px;
-    height: 32.87px;
+    width: 141.85px !important;
+    height: 32.87px !important;
   }
 
   .left_side {
