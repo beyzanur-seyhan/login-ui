@@ -4,6 +4,11 @@
     display: flex;
   }
 
+  header {
+    width: 141.85px;
+    height: 32.87px;
+  }
+
   .left_side {
     width: 674px;
     box-sizing: border-box;
