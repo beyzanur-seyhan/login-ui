@@ -1,5 +1,5 @@
 /** For Desktop Device **/
-@media screen and (max-width: 1920px) and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   body {
     display: flex;
   }
@@ -210,5 +210,64 @@
     opacity: 30%;
     border-radius: 100%;
     flex-grow: 0;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  body {
+    width: 1346px;
+    margin: auto;
+    background-color: white;
+  }
+
+  .left_side {
+    width: 582px;
+    padding-right: 29px;
+  }
+
+  .right_side {
+    width: 766px;
+  }
+
+  .form_input div input {
+    height: 55px;
+  }
+
+  .form_input div:first-child {
+    margin-bottom: 31px;
+  }
+
+  .login_option {
+    margin-top: 41px;
+    margin-bottom: 40px;
+  }
+
+  button[type="submit"] {
+    height: 60px;
+  }
+
+  .divider {
+    margin-top: 50px;
+    margin-bottom: 46px;
+    column-gap: 16px;
+  }
+
+  footer button:first-child {
+    margin-bottom: 34px !important;
+  }
+
+  footer button {
+    height: 60px;
+  }
+
+  footer button img {
+    width: 26.35px;
+    height: 25px;
   }
 }

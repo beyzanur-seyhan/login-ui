@@ -134,7 +134,7 @@ button[type="submit"] {
 }
 
 .divider hr {
-  width: 146.142px;
+  width: 100%;
   height: 1px;
   background-color: #a0aec0;
 }

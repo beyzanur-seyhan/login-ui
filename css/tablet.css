@@ -22,18 +22,6 @@
     margin-bottom: 0px;
   }
 
-  .form_create_account:nth-of-type(1) {
-    display: block;
-    font-size: 18px;
-    text-align: left;
-    margin-top: 39.04px;
-    margin-bottom: 45.93px;
-  }
-
-  .form_create_account:nth-of-type(2) {
-    display: none;
-  }
-
   .form_input div label {
     margin-bottom: 21px;
   }
@@ -110,5 +98,19 @@
   .form_input div:last-child input {
     border: none;
     background-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 834px) {
+  .form_create_account:nth-of-type(1) {
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 39.04px;
+    margin-bottom: 45.93px;
+  }
+
+  .form_create_account:nth-of-type(2) {
+    display: none;
   }
 }
