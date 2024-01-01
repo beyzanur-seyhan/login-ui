@@ -72,6 +72,9 @@
 }
 
 @media only screen and (min-width: 834px) {
+  .form_input_password {
+    border: 1px solid #cbd5e0;
+  }
   .form_create_account:nth-of-type(1) {
     display: block;
     font-size: 18px;
