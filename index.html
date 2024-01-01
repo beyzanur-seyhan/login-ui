@@ -49,12 +49,13 @@
                   placeholder="@#*%"
                   required
                 />
-                <button>
+                <div onclick="isShowPassword()">
                   <img
+                    id="imgIsShowIcon"
                     src="images/icons/show_passoword.svg"
                     alt="Password Show Icon"
                   />
-                </button>
+                </div>
               </div>
             </div>
           </div>
@@ -147,4 +148,22 @@
       </div>
     </div>
   </body>
+  <script>
+    let isShow = false;
+
+    const isShowPassword = () => {
+      const imgIsShowIcon = document.getElementById("imgIsShowIcon");
+      const iPassword = document.getElementById("upassword");
+
+      if (!isShow) {
+        imgIsShowIcon.src = "images/icons/hide_passowrd.svg";
+        iPassword.type = "text";
+        isShow = true;
+      } else {
+        imgIsShowIcon.src = "images/icons/show_passoword.svg";
+        iPassword.type = "password";
+        isShow = false;
+      }
+    };
+  </script>
 </html>
