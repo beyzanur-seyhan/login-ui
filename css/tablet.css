@@ -69,36 +69,6 @@
     font-weight: 500;
     color: #67728a;
   }
-
-  .form_input_password button {
-    display: block;
-  }
-
-  .form_input_password {
-    display: flex;
-    align-items: center;
-    background-color: var(--third-color);
-    border-radius: 12px;
-  }
-
-  .form_input_password button {
-    height: 40px;
-    background-color: transparent;
-    border: none;
-    padding-left: 13px;
-    padding-right: 16px;
-    border-left: 1px solid #cfd9e0;
-  }
-
-  .form_input_password button img {
-    width: 20.436px;
-    height: 15.281px;
-  }
-
-  .form_input div:last-child input {
-    border: none;
-    background-color: transparent;
-  }
 }
 
 @media only screen and (min-width: 834px) {
